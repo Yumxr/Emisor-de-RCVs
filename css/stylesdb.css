@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.policies-section ul, .documents-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.policies-section li, .documents-section li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.summary-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.summary-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.summary-item h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.summary-item p {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.earnings-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.earnings-section h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+.earnings-section p {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
